@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Header, About, Resume, Portfolio, Testimonials, ContactUs, Footer } from './components';
 import { resumeData } from './resumeData';
-class App extends Component {
+export default  class App extends Component {
   render() {
     return (
       <div className="App">
@@ -16,4 +16,3 @@ class App extends Component {
     );
   }
 }
-export default App;

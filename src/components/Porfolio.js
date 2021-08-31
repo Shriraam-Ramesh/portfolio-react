@@ -10,7 +10,7 @@ export default class Porfolio extends Component {
                         <div id="portfolio-wrapper" className="bgrid-quarters s-bgrid-thirds cf" alt="">
                             {
                                 resumeData.portfolio && resumeData.portfolio.map((item, index) => {
-                                    return (
+                                    return ( 
                                         <div className="columns portfolio-item" key={index}>
                                             <div className="item-wrap">
                                                     <img src={`${item.imgurl}`} className="item-img" />
